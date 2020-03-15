@@ -1,10 +1,16 @@
-# block-exploreres
-Run server.py and use http 
+# block-explorers
+##### Install
+```
+pipenv install
+```
+Run `python crawler_alpha.py`
+
+And then run `python server.py`
 
 
 ### HTTP API
-##### Get latest block
+##### Get info from API
 ```
-curl http://104.248.37.147:3001/blocks
+curl http://localhost:3001/blocks
 ```
 
